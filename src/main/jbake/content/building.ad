@@ -70,6 +70,22 @@ It might happen from time to time that the build fails,
 if so please report a broken build on the opennlp-dev mailing
 list. The build should always work for everyone.
 
+## Building Language Detection Model
+
+The data used to create the OpenNLP language model is stored in subversion.
+
+To checkout the data:
+
+....
+svn co https://svn.apache.org/repos/bigdata/opennlp/trunk opennlp-corpus
+....
+
+To create a tag:
+
+....
+svn copy https://svn.apache.org/repos/bigdata/opennlp/trunk https://svn.apache.org/repos/bigdata/opennlp/tags/langdetect-183_RC1 -m "Data used to build Language Detector model 1.8.3"
+....
+
 ## CI/CD
 
 There are two CI/CD processes for OpenNLP.
