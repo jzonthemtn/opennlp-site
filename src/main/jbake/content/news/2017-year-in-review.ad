@@ -1,0 +1,104 @@
+////
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+////
+= 2017 Year in Review
+Apache OpenNLP
+2017-12-27
+:jbake-type: post
+:jbake-tags: community
+:jbake-status: published
+:category: news
+:idprefix:
+:imagesdir: /img/
+A look back at OpenNLP's 2017.
+
+== Summary
+
+OpenNLP got off to a quick start in 2017 thanks to a 1.7.0 release on December 31, 2016. This version added support for Java 8 and set the tone for OpenNLP's 2017. In total, there were 7 releases in 2017. OpenNLP also got a new logo and website in 2017 with an updated look and easier navigation. OpenNLP also released its first model, a language detection model capable of identifying 103 languages. OpenNLP moved to GitHub for source management greatly simplifying the process of reviewing and merging pull requests.
+
+Some features and improvements that were added to OpenNLP in 2017 include:
+
+* A new language model CLI tool.
+* Moses format support.
+* CONLL-U format support.
+* Language codes now are ISO 639-3 compliant.
+* Many more unit tests.
+* Prefix and suffix feature generators are now configurable.
+* Learnable lemmatizer now returns all possible lemmas for a given word and part-of-speech tag.
+* A new language detection component and trained language model.
+* Evaluation tests now support ISO-639-3 language codes.
+* Fixed handling of xml parsers used through out the package.
+* New experimental API for word vectors and support for GloVe vector files.
+* Added annotator notes to BratAnnotator.
+* Add 20Newsgroups format support to the doccat component.
+* Resolved concurrency issue in POS tagger.
+
+== Community Development
+
+Apache OpenNLP has added 6 new committers and PMC members in 2017.
+
+== Talks and Presentations
+
+* https://www.youtube.com/watch?v=ZkInPRApV60[Deriving Actionable Insights from High Volume Media Streams] by Peter Thygesen and Jörn Kottmann
+* https://www.slideshare.net/SuneelMarthi/embracing-diversity-searching-over-multiple-languages[Embracing Diversity: Searching over multiple languages] Tommaso Teofili and Suneel Marthi, Berlin Buzzwords, Berlin Germany, June 12, 2017
+* http://events.linuxfoundation.org/sites/events/files/slides/Apache2016prezo.pdf[A Deep Text Analysis System based on OpenNLP] Boris Galitsky, ApacheCon Europe 2016, Seville Spain, November 2016
+* https://www.slideshare.net/DataScienceMD/it-takes-a-village-to-solve-a-problem-in-data-science[It takes a Village to solve a Problem in Data Science] Daniel Russ, Data Science Maryland Meetup, Laurel Maryland, June 19, 2017
+* https://www.slideshare.net/SuneelMarthi/large-scale-text-processing[Large Scale Processing of Text] Suneel Marthi, Hadoop Summit/DataWorks Summit, San Jose California, June 15, 2017
+
+== Releases
+
+OpenNLP had 7 releases in 2017. They were:
+
+* https://opennlp.apache.org/news/release-184.html[1.8.4] - December 25, 2017
+* https://opennlp.apache.org/news/release-183.html[1.8.3] - October 26, 2017
+* https://opennlp.apache.org/news/release-182.html[1.8.2] - September 15, 2017
+* https://opennlp.apache.org/news/release-181.html[1.8.1] - July 8, 2017
+* https://opennlp.apache.org/news/release-180.html[1.8.0] - May 18, 2017
+* https://opennlp.apache.org/news/release-172.html[1.7.2] - February 4, 2017
+* https://opennlp.apache.org/news/release-171.html[1.7.1] - January 23, 2017
+* https://opennlp.apache.org/news/release-170.html[1.7.0] - December 31, 2016
+
+== Models
+
+The OpenNLP team was very excited to announce the language detection model's https://opennlp.apache.org/news/model-langdetect-183.html[release] on November 2, 2017. This model is capable of identifying 103 languages. The model is available for https://opennlp.apache.org/models.html[download] from the OpenNLP website.
+
+== OpenNLP Release Timeline
+
+image::2017releases.png[]
+
+== Activity
+
+OpenNLP added 6 new committers and PMC members in 2017. There are currently 21 http://people.apache.org/phonebook.html?unix=opennlp[committers] and 15 PMC members.
+
+=== Tasks
+
+* 289 JIRA tasks were closed in 2017.
+* 346 JIRA tasks were opened in 2017.
+
+=== Code
+
+* There were https://github.com/apache/opennlp/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+created%3A%3E2017-01-01+[269] closed pull requests.
+* There were 323 git commits throughout the year:
+
+image::2017commits.png[]
+
+== Notable Use of OpenNLP
+
+OpenNLP powers an Air New Zealand Oscar chat bot.
+
+“Air New Zealand uses OpenNLP to power its chatbot, Oscar. Launched in February 2017, Oscar provides a conversational interface for customers to ask questions about flights, amenities and policies. Using OpenNLP, we’ve been able to consistently provide over 50% conversational success and support hundreds of intents.”

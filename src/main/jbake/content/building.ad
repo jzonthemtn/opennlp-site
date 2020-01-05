@@ -22,8 +22,6 @@
 :jbake-status: published
 :idprefix:
 
-## Last Offical
-
 ## Prerequisites
 
  - If you have an IDE installed such as https://netbeans.org/[NetBeans] or https://www.eclipse.org/[Eclipse] installed,
@@ -71,3 +69,11 @@ No tests will be executed.
 It might happen from time to time that the build fails,
 if so please report a broken build on the opennlp-dev mailing
 list. The build should always work for everyone.
+
+## CI/CD
+
+There are two CI/CD processes for OpenNLP.
+
+* The Jenkins https://builds.apache.org/job/opennlp/[job] builds the OpenNLP artifacts and publishes the snapshot dependencies to Maven Central. 
+* The Buildbot https://ci.apache.org/builders/opennlp-site/[job] publishes website changes. The job monitors the https://github.com/apache/opennlp-site[opennlp-site] repository for changes. When changes are found, Buildbot builds the site and pushes it to the asf-site branch. The OpenNLP website will then be updated to the newest revision.
+
