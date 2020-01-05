@@ -75,6 +75,7 @@
                         <li><a href="/source-code.html">Source Code</a></li>
                         <li><a href="/using-git.html">Using Git</a></li>
                         <li><a href="/building.html">Building</a></li>
+                        <li><a href="/thirdparty-models.html">Thirdparty Models</a></li>
                         <li><a href="/code-conventions.html">Code Conventions</a></li>
                         <li><a href="/release.html">Release</a></li>
                         <li><a href="/team.html">Project Team</a></li>
